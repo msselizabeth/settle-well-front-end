@@ -1,11 +1,16 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Bona_Nova, Geist, Geist_Mono, Reddit_Sans } from "next/font/google";
 import "./globals.scss";
 import Header from "@/components/Header/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const bonaNova = Bona_Nova({
+  variable: "--font-bona-nova",
+  subset: ["latin"],
+})
+
+const redditSans = Reddit_Sans({
+  variable: "--font-reddit-sans",
+  subset: ["latin"],
+})
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
