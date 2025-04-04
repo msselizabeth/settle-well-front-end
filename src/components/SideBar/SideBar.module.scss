@@ -1,0 +1,27 @@
+.sideBar{
+    background-color: $bg-primary;
+    width: 18%;
+    height: 100vh;
+    margin-top: -0.99rem;
+}
+
+.title {
+    font-family: var(--font-bona-nova), Arial, Helvetica, sans-serif;
+    color: $white;
+    margin-top: 0;
+
+ @include desktop {
+    // font-size: 10rem;
+    color: red;
+ }   
+}
+
+
+.logo {
+margin-left: 1.35rem;
+margin-bottom: -1.3rem;
+}
+
+.logoContainer {
+    padding-left: 1.8rem;
+}

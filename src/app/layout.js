@@ -1,6 +1,7 @@
 import { Bona_Nova, Reddit_Sans } from "next/font/google";
 import "./globals.scss";
 import Header from "@/components/Header/Header";
+import SideBar from "@/components/SideBar/SideBar";
 
 const bonaNova = Bona_Nova({
   variable: "--font-bona-nova",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${bonaNova.variable} ${redditSans.variable}`}>
         <Header/>
+        <SideBar />
         {children}
       </body>
     </html>
